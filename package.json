@@ -1,5 +1,5 @@
 {
-  "name": "iobroker.lightify-community",
+  "name": "iobroker.lightify",
   "version": "0.2.16",
   "description": "OSRAM Lightify Adapter",
   "author": {
@@ -12,7 +12,7 @@
       "email": "soef@gmx.net"
     }
   ],
-  "homepage": "https://github.com/soef/iobroker.lightify",
+  "homepage": "https://github.com/iobroker-community-adapters/iobroker.lightify",
   "license": "MIT",
   "keywords": [
     "ioBroker",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/soef/iobroker.lightify"
+    "url": "https://github.com/iobroker-community-adapters/iobroker.lightify"
   },
   "optionalDependencies": {
     "mdns-discovery": "^0.2.2"
@@ -44,7 +44,7 @@
     "chai": "^4.1.2"
   },
   "bugs": {
-    "url": "https://github.com/soef/iobroker.lightify/issues"
+    "url": "https://github.com/iobroker-community-adapters/iobroker.lightify/issues"
   },
   "readmeFilename": "README.md",
   "main": "lightify.js",
