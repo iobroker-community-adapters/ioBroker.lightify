@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "lightify-community",
+        "name": "lightify",
         "version": "0.2.16",
         "news": {
             "0.2.16": {
@@ -89,8 +89,8 @@
         "mode": "daemon",
         "icon": "lightify.png",
         "messagebox": true,
-        "extIcon": "https://raw.githubusercontent.com/soef/iobroker.lightify/master/admin/lightify.png",
-        "readme": "https://github.com/soef/iobroker.lightify/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/iobroker.lightify/master/admin/lightify.png",
+        "readme": "https://github.com/iobroker-community-adapters/iobroker.lightify/blob/master/README.md",
         "loglevel": "info",
         "type": "lighting",
         "enabled": true,

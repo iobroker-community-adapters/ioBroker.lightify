@@ -2,12 +2,12 @@
 # ioBroker.lightify 
 =========================
 
-![Number of Installations](http://iobroker.live/badges/lightify-community-installed.svg) ![Number of Installations](http://iobroker.live/badges/lightify-community-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.lightify.svg)](https://www.npmjs.com/package/iobroker.lightify)
-[![Tests](http://img.shields.io/travis/soef/ioBroker.lightify/master.svg)](https://travis-ci.org/soef/ioBroker.lightify)
-[![Build status](https://ci.appveyor.com/api/projects/status/22g73bivc5vkvdr7?svg=true)](https://ci.appveyor.com/project/soef/iobroker-lightify)
+![Number of Installations](http://iobroker.live/badges/lightify-installed.svg) ![Number of Installations](http://iobroker.live/badges/lightify-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.lightify.svg)](https://www.npmjs.com/package/iobroker.lightify)
+[![Tests](http://img.shields.io/travis/iobroker-community-adapters/ioBroker.lightify/master.svg)](https://travis-ci.org/iobroker-community-adapters/ioBroker.lightify)
+[![Build status](https://ci.appveyor.com/api/projects/status/22g73bivc5vkvdr7?svg=true)](https://ci.appveyor.com/project/iobroker-community-adapters/iobroker-lightify)
 
 <!--
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/soef/iobroker.lightify/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/iobroker-community-adapters/iobroker.lightify/blob/master/LICENSE)
 -->
 ## Description
 ioBroker Adapter for [OSRAM Lightify](http://led.osram.de/led_de/lightify/index.jsp)
