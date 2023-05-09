@@ -46,6 +46,14 @@ For example, ``` red = 0 ```, blue and green will stay unchanged.
 Please configure first all devices via Lightify app.
 
 ## Changelog
+<!--
+    Placeholder for the next version (at the beginning of the line):
+    ### **WORK IN PROGRESS**
+-->
+### **WORK IN PROGRESS**
+-   (mcm1957) changed: Testing has been changed to support node 16, 18 and 20
+-   (mcm1957) changed: Dependencies have been updated
+
 ### 0.2.11 (2017.07.26)  
 * (bluefox) fix of the discovery packet
 
