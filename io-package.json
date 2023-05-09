@@ -72,6 +72,11 @@
             }
         },
         "title": "OSRAM Lightify",
+        "titleLang": {
+            "en": "OSRAM Lightify",
+            "de": "OSRAM Lightify",
+            "ru": "OSRAM Lightify"
+        },
         "desc": {
             "en": "OSRAM Lightify Devices",
             "de": "OSRAM Lightify Geräte",
