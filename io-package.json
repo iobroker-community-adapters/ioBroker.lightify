@@ -71,7 +71,6 @@
                 "de": "Mögliche Schutzverletung bei der Verwendung des command Datenpunktes"
             }
         },
-        "title": "OSRAM Lightify",
         "titleLang": {
             "en": "OSRAM Lightify",
             "de": "OSRAM Lightify",
@@ -89,7 +88,10 @@
             "zigbee",
             "hue"
         ],
-        "license": "MIT",
+        "licenseInformation": {
+            "license": "MIT",
+            "type": "free"
+          },
         "platform": "Javascript/Node.js",
         "mode": "daemon",
         "icon": "lightify.png",
@@ -97,6 +99,7 @@
         "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/iobroker.lightify/master/admin/lightify.png",
         "readme": "https://github.com/iobroker-community-adapters/iobroker.lightify/blob/master/README.md",
         "loglevel": "info",
+        "tier": 2,
         "type": "lighting",
         "enabled": true,
         "authors": [
@@ -104,7 +107,17 @@
                 "name": "soef",
                 "email": "soef@gmx.net"
             }
-        ]
+        ],
+        "dependencies": [
+            {
+              "js-controller": ">=5.0.19"
+            }
+          ],
+          "globalDependencies": [
+            {
+              "admin": ">=6.13.16"
+            }
+          ]      
     },
     "native": {
         "ip": "",

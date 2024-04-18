@@ -51,8 +51,8 @@ Please configure first all devices via Lightify app.
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
--   (mcm1957) changed: Testing has been changed to support node 16, 18 and 20
--   (mcm1957) changed: Dependencies have been updated
+- (mcm1957) Adapter requires node.js >= 18 and js-controller >= 5 now
+- (mcm1957) Dependencies have been updated
 
 ### 0.2.11 (2017.07.26)  
 * (bluefox) fix of the discovery packet
@@ -87,6 +87,7 @@ Please configure first all devices via Lightify app.
 ## License
 The MIT License (MIT)
 
+Copyright (c) 2024 iobroker-community-adapters <iobroker-community-adapters@gmx.de>
 Copyright (c) 2016-2017 soef <soef@gmx.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
