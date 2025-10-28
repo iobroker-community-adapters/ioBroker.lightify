@@ -1,28 +1,6 @@
-
-# Template for ioBroker Adapter Copilot Instructions
-
-This is the template file that should be copied to your ioBroker adapter repository as `.github/copilot-instructions.md`.
-
-## How to Use This Template
-
-**Prerequisites:** Ensure you have GitHub Copilot already set up and working in your repository before using this template. If you need help with basic setup, see the [Prerequisites & Setup Guide](README.md#🛠️-prerequisites--basic-github-copilot-setup) in the main repository.
-
-1. Copy this entire content
-2. Save it as `.github/copilot-instructions.md` in your adapter repository
-3. Customize the sections marked with `[CUSTOMIZE]` if needed
-4. Commit the file to enable GitHub Copilot integration
-
-**Note:** If downloading via curl, use the sed command to remove the template comment block:
-```bash
-curl -o .github/copilot-instructions.md https://raw.githubusercontent.com/DrozmotiX/ioBroker-Copilot-Instructions/main/template.md
-sed -i '/^<!--$/,/^-->$/d' .github/copilot-instructions.md
-```
-
----
-
 # ioBroker Adapter Development with GitHub Copilot
 
-**Version:** 0.4.0
+**Version:** 0.4.2
 **Template Source:** https://github.com/DrozmotiX/ioBroker-Copilot-Instructions
 
 This file contains instructions and best practices for GitHub Copilot when working on ioBroker adapter development.
@@ -524,6 +502,10 @@ Follow the [AlCalzone release-script](https://github.com/AlCalzone/release-scrip
 ```markdown
 # Changelog
 
+<!--
+  Placeholder for the next version (at the beginning of the line):
+  ## **WORK IN PROGRESS**
+-->
 
 ## **WORK IN PROGRESS**
 
@@ -559,10 +541,12 @@ Use this consistent format for changelog entries:
 
 ### Package Management
 - Always use `npm` for dependency management in ioBroker adapters
+- When working on new features in a repository with an existing package-lock.json file, use `npm ci` to install dependencies. Use `npm install` only when adding or updating dependencies.
 - Keep dependencies minimal and focused
-- Regularly update dependencies to latest stable versions
-- Use `npm audit` to check for security vulnerabilities
-- Before committing, ensure package.json and package-lock.json are in sync by running `npm install`
+- Only update dependencies to latest stable versions when necessary or in separate Pull Requests. Avoid updating dependencies when adding features that don't require these updates.
+- When you modify `package.json`:
+  1. Run `npm install` to update and sync `package-lock.json`.
+  2. If `package-lock.json` was updated, commit both `package.json` and `package-lock.json`.
 
 ### Dependency Best Practices
 - Prefer built-in Node.js modules when possible
