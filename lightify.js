@@ -567,7 +567,7 @@ function browseIp(callback) {
 function getIPAddresses() {
     // found on stackOverflow
     var ips = [];
-    var interfaces = require('os').networkInterfaces();
+    var interfaces = require('node:os').networkInterfaces();
     for (var devName in interfaces) {
         if (!interfaces.hasOwnProperty(devName)) continue;
 
@@ -584,7 +584,7 @@ function getIPAddresses() {
 }
 
 function tryIp(ip, cb) {
-    net = net || require('net');
+    net = net || require('node:net');
 
     var client = new net.Socket();
     client.setTimeout(1000, function () {
