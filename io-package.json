@@ -1,154 +1,152 @@
 {
-    "common": {
-        "name": "lightify",
-        "version": "0.2.16",
-        "news": {
-            "0.2.16": {
-                "en": "Update utils.js and usage, CI Testing and deps (Apollon77)",
-                "de": "utils.js und Benutzung erneuert, CI Testing (Apollon77)"
-            },
-            "0.2.15": {
-                "en": "update basic package-file testing (Apollon77)",
-                "de": "Erweiterung der Tests (Apollon77)"
-            },
-            "0.2.14": {
-                "en": "node 0.12 removed from testing",
-                "de": "node 0.12 auf testing entfernt"
-            },
-            "0.2.12": {
-                "en": "Enhance CI testing",
-                "de": "CI testing erweitert"
-            },
-            "0.2.11": {
-                "en": "fix of the discovery packet",
-                "de": "Korrigiere Discovery Packet",
-                "ru": "Исправлен пакет discovery"
-            },
-            "0.2.10": {
-                "en": "fixed adapter load for newer/younger utils.js versions",
-                "de": "Laden des adapters für neue/alte utils Versionen korrigiert"
-            },
-            "0.2.9": {
-                "en": "version for soef set to 0.4.4",
-                "de": "Version für soef auf to 0.4.4 gesetzt"
-            },
-            "0.2.8": {
-                "en": "small changes",
-                "de": "Kleine Anpassungen",
-                "ru": "Небольшие изменения"
-            },
-            "0.2.6": {
-                "en": "command state added to group/zone devices",
-                "de": "command Datenpunkt für Gruppen/Zone Geräte hinzugefügt"
-            },
-            "0.2.5": {
-                "en": "using version 0.2.2 of mnds-discover",
-                "de": "Verwendung der Version 0.2.2 des mnds-discover modules"
-            },
-            "0.2.4": {
-                "en": "started to optimize zone/group support",
-                "de": "Begonnen Zone/Gruppen Unterstützung zu verbessern"
-            },
-            "0.2.3": {
-                "en": "Some optimizations and corrections",
-                "de": "Einige Optimierungen und Korrekturen"
-            },
-            "0.2.2": {
-                "en": "Discovery and browse now via mdns",
-                "de": "Discovery und Browse jetzt per mdns"
-            },
-            "0.2.1": {
-                "en": "some fixes",
-                "de": "einige Korrekturen"
-            },
-            "0.2.0": {
-                "en": "refactoring of adapter",
-                "de": "Refaktoring von Adapter",
-                "ru": "Драйвер переработан"
-            },
-            "0.0.28": {
-                "en": "possible exception in using command state",
-                "de": "Mögliche Schutzverletung bei der Verwendung des command Datenpunktes"
-            }
-        },
-        "titleLang": {
-            "en": "OSRAM Lightify",
-            "de": "OSRAM Lightify",
-            "ru": "OSRAM Lightify"
-        },
-        "desc": {
-            "en": "OSRAM Lightify Devices",
-            "de": "OSRAM Lightify Geräte",
-            "ru": "OSRAM Lightify Устройства"
-        },
-        "keywords": [
-            "ioBroker",
-            "osram",
-            "lightify",
-            "zigbee",
-            "hue"
-        ],
-        "licenseInformation": {
-            "license": "MIT",
-            "type": "free"
-          },
-        "platform": "Javascript/Node.js",
-        "mode": "daemon",
-        "icon": "lightify.png",
-        "messagebox": true,
-        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/iobroker.lightify/master/admin/lightify.png",
-        "readme": "https://github.com/iobroker-community-adapters/iobroker.lightify/blob/master/README.md",
-        "loglevel": "info",
-        "tier": 2,
-        "type": "lighting",
-        "enabled": true,
-        "authors": [
-            {
-                "name": "soef",
-                "email": "soef@gmx.net"
-            }
-        ],
-        "adminUI": {
-            "config": "html"
-        },
-        "dependencies": [
-            {
-              "js-controller": ">=5.0.19"
-            }
-          ],
-          "globalDependencies": [
-            {
-              "admin": ">=6.13.16"
-            }
-          ]      
+  "common": {
+    "name": "lightify",
+    "version": "0.2.16",
+    "news": {
+      "0.2.16": {
+        "en": "Update utils.js and usage, CI Testing and deps (Apollon77)",
+        "de": "utils.js und Benutzung erneuert, CI Testing (Apollon77)"
+      },
+      "0.2.15": {
+        "en": "update basic package-file testing (Apollon77)",
+        "de": "Erweiterung der Tests (Apollon77)"
+      },
+      "0.2.14": {
+        "en": "node 0.12 removed from testing",
+        "de": "node 0.12 auf testing entfernt"
+      },
+      "0.2.12": {
+        "en": "Enhance CI testing",
+        "de": "CI testing erweitert"
+      },
+      "0.2.11": {
+        "en": "fix of the discovery packet",
+        "de": "Korrigiere Discovery Packet",
+        "ru": "Исправлен пакет discovery"
+      },
+      "0.2.10": {
+        "en": "fixed adapter load for newer/younger utils.js versions",
+        "de": "Laden des adapters für neue/alte utils Versionen korrigiert"
+      },
+      "0.2.9": {
+        "en": "version for soef set to 0.4.4",
+        "de": "Version für soef auf to 0.4.4 gesetzt"
+      },
+      "0.2.8": {
+        "en": "small changes",
+        "de": "Kleine Anpassungen",
+        "ru": "Небольшие изменения"
+      },
+      "0.2.6": {
+        "en": "command state added to group/zone devices",
+        "de": "command Datenpunkt für Gruppen/Zone Geräte hinzugefügt"
+      },
+      "0.2.5": {
+        "en": "using version 0.2.2 of mnds-discover",
+        "de": "Verwendung der Version 0.2.2 des mnds-discover modules"
+      },
+      "0.2.4": {
+        "en": "started to optimize zone/group support",
+        "de": "Begonnen Zone/Gruppen Unterstützung zu verbessern"
+      },
+      "0.2.3": {
+        "en": "Some optimizations and corrections",
+        "de": "Einige Optimierungen und Korrekturen"
+      },
+      "0.2.2": {
+        "en": "Discovery and browse now via mdns",
+        "de": "Discovery und Browse jetzt per mdns"
+      },
+      "0.2.1": {
+        "en": "some fixes",
+        "de": "einige Korrekturen"
+      },
+      "0.2.0": {
+        "en": "refactoring of adapter",
+        "de": "Refaktoring von Adapter",
+        "ru": "Драйвер переработан"
+      },
+      "0.0.28": {
+        "en": "possible exception in using command state",
+        "de": "Mögliche Schutzverletung bei der Verwendung des command Datenpunktes"
+      }
     },
-    "native": {
-        "ip": "",
-        "polling": true,
-        "interval": 60
+    "titleLang": {
+      "en": "OSRAM Lightify",
+      "de": "OSRAM Lightify",
+      "ru": "OSRAM Lightify"
     },
-    "instanceObjects": [
-        {
-            "_id": "info",
-            "type": "channel",
-            "common": {
-                "name": "Information"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "role": "indicator.connected",
-                "name": "If connected to CUL",
-                "type": "boolean",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        }
+    "desc": {
+      "en": "OSRAM Lightify Devices",
+      "de": "OSRAM Lightify Geräte",
+      "ru": "OSRAM Lightify Устройства"
+    },
+    "keywords": [
+      "ioBroker",
+      "osram",
+      "lightify",
+      "zigbee",
+      "hue"
     ],
-    "objects": []
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "icon": "lightify.png",
+    "messagebox": true,
+    "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/iobroker.lightify/master/admin/lightify.png",
+    "readme": "https://github.com/iobroker-community-adapters/iobroker.lightify/blob/master/README.md",
+    "loglevel": "info",
+    "tier": 2,
+    "type": "lighting",
+    "enabled": true,
+    "authors": [
+      "soef <soef@gmx.net>",
+      "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
+    ],
+    "adminUI": {
+      "config": "html"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=7.7.22"
+      }
+    ]
+  },
+  "native": {
+    "ip": "",
+    "polling": true,
+    "interval": 60
+  },
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "If connected to CUL",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ],
+  "objects": []
 }

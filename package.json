@@ -2,15 +2,10 @@
   "name": "iobroker.lightify",
   "version": "0.2.16",
   "description": "OSRAM Lightify Adapter",
-  "author": {
-    "name": "soef",
-    "email": "soef@gmx.net"
-  },
+  "author": "soef <soef@gmx.net>",
   "contributors": [
-    {
-      "name": "soef",
-      "email": "soef@gmx.net"
-    }
+    "soef <soef@gmx.net>",
+    "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
   ],
   "homepage": "https://github.com/iobroker-community-adapters/iobroker.lightify",
   "license": "MIT",
