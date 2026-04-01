@@ -87,7 +87,7 @@ Please configure first all devices via Lightify app.
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2024 iobroker-community-adapters <iobroker-community-adapters@gmx.de>
+Copyright (c) 2024-2026 iobroker-community-adapters <iobroker-community-adapters@gmx.de>
 Copyright (c) 2016-2017 soef <soef@gmx.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
