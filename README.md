@@ -54,6 +54,7 @@ Please configure first all devices via Lightify app.
 - (iobroker-bot) Adapter requires node.js >= 20 now.
 - (mcm1957) Adapter requires node.js >= 18 and js-controller >= 5 now
 - (mcm1957) Dependencies have been updated
+- (copilot) **ENHANCED**: Migrated admin configuration to jsonConfig and short-form i18n files.
 
 ### 0.2.11 (2017.07.26)  
 * (bluefox) fix of the discovery packet

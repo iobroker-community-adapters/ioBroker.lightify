@@ -1,0 +1,7 @@
+{
+    "interval": "轮询间隔（秒）",
+    "interval_help": "轮询间隔（秒，最小 5 秒）。",
+    "ip": "网关 IP",
+    "ip_help": "Lightify 网关的 IP 地址。",
+    "polling": "启用轮询"
+}

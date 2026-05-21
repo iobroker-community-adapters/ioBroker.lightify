@@ -1,0 +1,7 @@
+{
+    "interval": "Interwał odpytywania w sekundach.",
+    "interval_help": "Interwał odpytywania w sekundach (minimum 5 sekund).",
+    "ip": "IP bramki",
+    "ip_help": "Adres IP bramki Lightify.",
+    "polling": "Włącz odpytywanie"
+}

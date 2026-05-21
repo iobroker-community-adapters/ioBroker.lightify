@@ -1,0 +1,7 @@
+{
+    "interval": "Polling Intervall in Sek.",
+    "interval_help": "Polling-Intervall in Sekunden (mindestens 5 Sekunden).",
+    "ip": "IP des Gateways",
+    "ip_help": "IP-Adresse des Lightify-Gateways.",
+    "polling": "Polling erlauben"
+}

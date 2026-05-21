@@ -1,0 +1,7 @@
+{
+    "interval": "Intervallo di polling in secondi.",
+    "interval_help": "Intervallo di polling in secondi (minimo 5 secondi).",
+    "ip": "IP del gateway",
+    "ip_help": "Indirizzo IP del gateway Lightify.",
+    "polling": "Abilita polling"
+}
