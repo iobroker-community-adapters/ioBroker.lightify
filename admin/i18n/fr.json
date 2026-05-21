@@ -1,0 +1,7 @@
+{
+    "interval": "Intervalle d'interrogation en secondes.",
+    "interval_help": "Intervalle d'interrogation en secondes (minimum 5 secondes).",
+    "ip": "IP de la passerelle",
+    "ip_help": "Adresse IP de la passerelle Lightify.",
+    "polling": "Activer l'interrogation"
+}

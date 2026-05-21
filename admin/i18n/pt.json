@@ -1,0 +1,7 @@
+{
+    "interval": "Intervalo de sondagem em segundos.",
+    "interval_help": "Intervalo de sondagem em segundos (mínimo de 5 segundos).",
+    "ip": "IP do gateway",
+    "ip_help": "Endereço IP do gateway Lightify.",
+    "polling": "Ativar sondagem"
+}

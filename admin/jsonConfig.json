@@ -4,6 +4,7 @@
         "ip": {
             "type": "text",
             "label": "ip",
+            "help": "ip_help",
             "xs": 12,
             "sm": 12,
             "md": 8,
@@ -22,6 +23,8 @@
         "interval": {
             "type": "number",
             "label": "interval",
+            "help": "interval_help",
+            "min": 5,
             "xs": 12,
             "sm": 12,
             "md": 4,

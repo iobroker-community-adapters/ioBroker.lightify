@@ -1,0 +1,7 @@
+{
+    "interval": "Intervalo de sondeo en segundos.",
+    "interval_help": "Intervalo de sondeo en segundos (mínimo 5 segundos).",
+    "ip": "IP de la pasarela",
+    "ip_help": "Dirección IP de la pasarela Lightify.",
+    "polling": "Habilitar sondeo"
+}
