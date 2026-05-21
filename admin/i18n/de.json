@@ -1,0 +1,5 @@
+{
+    "ip": "IP des Gateways",
+    "interval": "Polling Intervall in Sek.",
+    "polling": "Polling erlauben"
+}

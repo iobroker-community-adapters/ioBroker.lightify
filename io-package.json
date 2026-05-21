@@ -108,7 +108,7 @@
             }
         ],
         "adminUI": {
-            "config": "html"
+            "config": "json"
         },
         "dependencies": [
             {
