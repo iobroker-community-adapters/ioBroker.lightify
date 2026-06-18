@@ -85,6 +85,8 @@ Please configure first all devices via Lightify app.
 ### 0.1.0
 * (bluefox) refactoring
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 The MIT License (MIT)
 
